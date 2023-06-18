@@ -13,7 +13,6 @@ class Program
     static Thread displayThread;
     static bool isPlaying;
 
-
     static void Main(string[] args)
     {
         InitializeSamples();
@@ -35,8 +34,6 @@ class Program
         } while (keyInfo.Key != ConsoleKey.Escape);
 
         CleanupSamples();
-
-        // Stop the display thread
         displayThread.Join();
     }
 
@@ -194,7 +191,7 @@ class Program
                 Console.WriteLine(outputLines[i]);
             }
 
-            Thread.Sleep(10); // Update every 25 milliseconds
+            Thread.Sleep(10);
         }
     }
 
