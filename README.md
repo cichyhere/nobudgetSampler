@@ -50,7 +50,7 @@ Możesz dostosować te przypisania, edytując odpowiednie pliki w folderze.
 
 ### Odtwarzanie sampli
 
-Aby odtworzyć sampl, naciśnij odpowiedni klawisz na klawiaturze, który jest przypisany do danego sampla. Po naciśnięciu klawisza sampl zostanie odtworzony.
+Aby odtworzyć sampel, naciśnij odpowiedni klawisz na klawiaturze, który jest przypisany do danego sampla. Po naciśnięciu klawisza, sampel zostanie odtworzony.
 
 ### Zatrzymywanie odtwarzania
 
