@@ -19,7 +19,7 @@ lub
 2.	Rozpakuj plik zip.
 3.	Uruchom plik exe (`nobudgetSampler.exe`).
 
-## Obsługa programu
+## Obsługa programu 
 
 Po uruchomieniu programu będziesz mógł odtwarzać sampli, naciskając odpowiednie klawisze na klawiaturze.
 
