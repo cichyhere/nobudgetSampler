@@ -41,25 +41,25 @@ class Program
     {
         samplePaths = new Dictionary<char, string>
         {
-            { '1', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\1.wav" },
-            { '2', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\2.wav" },
-            { '3', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\3.wav" },
-            { '4', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\4.wav" },
+            { '1', "sample\\1.wav" },
+            { '2', "sample\\2.wav" },
+            { '3', "sample\\3.wav" },
+            { '4', "sample\\4.wav" },
             
-            { 'q', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\5.wav" },
-            { 'w', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\6.wav" },
-            { 'e', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\7.wav" },
-            { 'r', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\8.wav" },
+            { 'q', "sample\\5.wav" },
+            { 'w', "sample\\6.wav" },
+            { 'e', "sample\\7.wav" },
+            { 'r', "sample\\8.wav" },
             
-            { 'a', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\9.wav" },
-            { 's', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\10.wav" },
-            { 'd', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\11.wav" },
-            { 'f', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\12.wav" },
+            { 'a', "sample\\9.wav" },
+            { 's', "sample\\10.wav" },
+            { 'd', "sample\\11.wav" },
+            { 'f', "sample\\12.wav" },
             
-            { 'z', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\13.wav" },
-            { 'x', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\14.wav" },
-            { 'c', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\15.wav" },
-            { 'v', "C:\\Users\\cinek\\source\\repos\\nobudgerSampler\\nobudgerSampler\\sample\\16.wav" }
+            { 'z', "sample\\13.wav" },
+            { 'x', "sample\\14.wav" },
+            { 'c', "sample\\15.wav" },
+            { 'v', "sample\\16.wav" }
         };
 
         waveOutEvents = new Dictionary<char, WaveOutEvent>();
@@ -236,7 +236,7 @@ class Program
         Console.WriteLine("                                          --  nobudgetSampler v0.01  --", Console.ForegroundColor = ConsoleColor.White);
         Console.WriteLine("                                               +---+---+---+---+");
         Console.WriteLine("                                               | 1 | 2 | 3 | 4 |                     creds");
-        Console.WriteLine("                nacisnij H by przerwać         +---+---+---+---+                    ten hui");
+        Console.WriteLine("                nacisnij H by przerwać         +---+---+---+---+                    Beniamin Cichacki");
         Console.WriteLine("                     ESC by wyjść              | q | w | e | r |                    mate max");
         Console.WriteLine("                  dostępne klawisze            +---+---+---+---+                 lenovo legion");
         Console.WriteLine("                                               | a | s | d | f |");

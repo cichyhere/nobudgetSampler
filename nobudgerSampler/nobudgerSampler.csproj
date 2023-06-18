@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NAudio" Version="2.1.0" />
+    <Compile Remove="samples\**" />
+    <EmbeddedResource Remove="samples\**" />
+    <None Remove="samples\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="samples\" />
+    <PackageReference Include="NAudio" Version="2.1.0" />
   </ItemGroup>
 
 </Project>
