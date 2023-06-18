@@ -1,5 +1,5 @@
 -----
-![123121343](https://github.com/cichyhere/nobudgetSampler/assets/84254704/2ef6889d-74de-4dc5-a18c-3d574b8ff460)
+![123121343](https://github.com/cichyhere/nobudgetSampler/assets/84254704/52db5e37-3f15-4f35-86dc-a74a4492cfbd)
 -----
 
 # Instrukcja obsługi nobudgetSampler
