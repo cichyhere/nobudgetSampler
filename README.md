@@ -1,7 +1,10 @@
+-----
 ![123121343](https://github.com/cichyhere/nobudgetSampler/assets/84254704/2ef6889d-74de-4dc5-a18c-3d574b8ff460)
+-----
+
 # Instrukcja obsługi nobudgetSampler
 
-`nobudgetSampler` jest prostym programem do odtwarzania sampli zdefiniowanych dla poszczególnych klawiszy na klawiaturze.
+`nobudgetSampler` jest prostym programem do odtwarzania sampli.
 
 ## Uruchamianie programu
 
@@ -9,6 +12,12 @@ Aby uruchomić program, wykonaj następujące kroki:
 
 1. Skompiluj program `nobudgetSampler` w środowisku programistycznym (np. Visual Studio).
 2. Uruchom skompilowany plik wykonywalny (`nobudgetSampler.exe`).
+
+lub
+
+1.	Pobierz z sekcji releaces plik zip zawierający program `nobudgetSampler.zip`.
+2.	Rozpakuj plik zip.
+3.	Uruchom plik exe (`nobudgetSampler.exe`).
 
 ## Obsługa programu
 
@@ -37,9 +46,7 @@ c - \sample\15.wav
 v - \sample\16.wav
 ```
 
-Możesz dostosować te przypisania, edytując odpowiednie ścieżki do plik
-
-ów sampli w kodzie programu.
+Możesz dostosować te przypisania, edytując odpowiednie pliki w folderze.
 
 ### Odtwarzanie sampli
 
@@ -55,10 +62,4 @@ Aby wyjść z programu `nobudgetSampler`, naciśnij klawisz "ESC" na klawiaturze
 
 ## Przykład użycia
 
-1. Uruchom program `nobudgetSampler`.
-2. Naciśnij klawisz "1" na klawiaturze. Powinien zostać odtworzony sampl z pliku "1.wav".
-3. Naciśnij klawisz "q" na klawiaturze. Powinien zostać odtworzony sampl z pliku "5.wav".
-4. Naciśnij klawisz "H" na klawiaturze. Odtwarzanie wszystkich sampli powinno zostać zatrzymane.
-5. Naciśnij klawisz "ESC" na klawiaturze. Program `nobudgetSampler` zostanie zakończony.
-
-To wszystko! Teraz powinieneś być w stanie obsługiwać program `nobudgetSampler` i odtwarzać sample za pomocą klawiatury.
+*film here but later*
