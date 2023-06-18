@@ -15,13 +15,13 @@ Aby uruchomić program, wykonaj następujące kroki:
 
 lub
 
-1.	Pobierz z sekcji releaces plik zip zawierający program `nobudgetSampler.zip`.
-2.	Rozpakuj plik zip.
+1.	Pobierz z sekcji releaces plik zip zawierający program `nobudgetSampler.rar`.
+2.	Rozpakuj plik rar.
 3.	Uruchom plik exe (`nobudgetSampler.exe`).
 
 ## Obsługa programu 
 
-Po uruchomieniu programu będziesz mógł odtwarzać sampli, naciskając odpowiednie klawisze na klawiaturze.
+Po uruchomieniu programu będziesz mógł odtwarzać sample, naciskając odpowiednie klawisze na klawiaturze.
 
 ### Przypisanie sampli do klawiszy
 
@@ -63,3 +63,6 @@ Aby wyjść z programu `nobudgetSampler`, naciśnij klawisz "ESC" na klawiaturze
 ## Przykład użycia
 
 *film here but later*
+
+## Użyte biblioteki
+- naudio/[NAudio](https://github.com/naudio/NAudio)
