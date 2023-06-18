@@ -111,7 +111,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Invalid key.");
+            Console.WriteLine("Zły przycisk.");
         }
     }
     static void StopAllPlayback()
@@ -169,18 +169,18 @@ class Program
                         var position = waveOutEvent.GetPosition();
                         var progress = (double)position / (sampleRate * channels * (sampleLength?.TotalMilliseconds ?? 0) / 1000);
                         progress = progress / 4;
-                        outputLines.Add($"[{key}] {(isCurrentlyPlaying ? "Playing" : "Stopped")}: {progress:P0}" + " " + CreateProgressBar((float)progress, (float)(sampleLength?.TotalMilliseconds ?? 0) / 1000));
+                        outputLines.Add($"[{key}] {(isCurrentlyPlaying ? "Odtwarzanie" : "Zatrzymane")}: {progress:P0}" + " " + CreateProgressBar((float)progress, (float)(sampleLength?.TotalMilliseconds ?? 0) / 1000));
                         outputColors.Add(ConsoleColor.Green);
                     }
                     else
                     {
-                        outputLines.Add($"[{key}] {(isCurrentlyPlaying ? "Playing" : "Stopped")}: Audio playback stopped");
+                        outputLines.Add($"[{key}] {(isCurrentlyPlaying ? "Odtwarzanie" : "Zatrzymane")}: Odtwarzanie dźwięku zatrzymane");
                         outputColors.Add(ConsoleColor.Blue);
                     }
                 }
                 else
                 {
-                    outputLines.Add($"[{key}] {(isCurrentlyPlaying ? "Playing" : "Stopped")}: Sample not found");
+                    outputLines.Add($"[{key}] {(isCurrentlyPlaying ? "Odtwarzanie" : "Zatrzymane")}: Sample nie znaleziony");
                     outputColors.Add(ConsoleColor.DarkRed);
                 }
             }
@@ -235,10 +235,10 @@ class Program
     {
         Console.WriteLine("                                          --  nobudgetSampler v0.01  --", Console.ForegroundColor = ConsoleColor.White);
         Console.WriteLine("                                               +---+---+---+---+");
-        Console.WriteLine("                                               | 1 | 2 | 3 | 4 |                     creds");
-        Console.WriteLine("                nacisnij H by przerwać         +---+---+---+---+                    Beniamin Cichacki");
-        Console.WriteLine("                     ESC by wyjść              | q | w | e | r |                    mate max");
-        Console.WriteLine("                  dostępne klawisze            +---+---+---+---+                 lenovo legion");
+        Console.WriteLine("                                               | 1 | 2 | 3 | 4 |                       creds");
+        Console.WriteLine("                nacisnij H by przerwać         +---+---+---+---+                  Beniamin Cichacki");
+        Console.WriteLine("                     ESC by wyjść              | q | w | e | r |              Maksymilian Czeszkiewicz");
+        Console.WriteLine("                  dostępne klawisze   ---->    +---+---+---+---+                   Igor Grześlak");
         Console.WriteLine("                                               | a | s | d | f |");
         Console.WriteLine("                                               +---+---+---+---+");
         Console.WriteLine("                                               | z | x | c | v |");
