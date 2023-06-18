@@ -4,7 +4,7 @@
 
 # Instrukcja obsługi nobudgetSampler
 
-`nobudgetSampler` jest prostym programem do odtwarzania sampli.
+`nobudgetSampler` jest prostym pięknym programem do odtwarzania sampli.
 
 ## Uruchamianie programu
 
