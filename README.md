@@ -62,7 +62,9 @@ Aby wyjść z programu `nobudgetSampler`, naciśnij klawisz "ESC" na klawiaturze
 
 ## Przykład użycia
 
-*film here but later*
+**[Demo Video](https://youtu.be/MAYVEz4hdnU)**
+
+[![DemoVideo](https://img.youtube.com/vi/MAYVEz4hdnU/0.jpg)](https://www.youtube.com/watch?v=MAYVEz4hdnU)
 
 ## Użyte biblioteki
 - naudio/[NAudio](https://github.com/naudio/NAudio)
