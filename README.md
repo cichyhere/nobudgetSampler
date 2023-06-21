@@ -66,5 +66,7 @@ Aby wyjść z programu `nobudgetSampler`, naciśnij klawisz "ESC" na klawiaturze
 
 [![DemoVideo](https://img.youtube.com/vi/MAYVEz4hdnU/0.jpg)](https://www.youtube.com/watch?v=MAYVEz4hdnU)
 
+![imagejgtgse](https://github.com/cichyhere/nobudgetSampler/assets/116640004/b0f9b7d9-9e5a-44b1-b4c5-09a8fc9efdf6)
+
 ## Użyte biblioteki
 - naudio/[NAudio](https://github.com/naudio/NAudio)
